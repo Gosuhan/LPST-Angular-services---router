@@ -1,7 +1,7 @@
 <mat-toolbar>
 <ul>
-  <button mat-button [style.color] = "appService.selectedMenu == 'legal' ? 'red' : 'black'" (click)="selectMenu('legal')">Legal notice</button>
-  <button mat-button [style.color] = "appService.selectedMenu == 'credits' ? 'red' : 'black'" (click)="selectMenu('credits')">Credits</button>
+  <button mat-button [style.color] = "appService.selectedMenu == 'legal' ? 'red' : 'black'" routerLink="/legal">Legal notice</button>
+  <button mat-button [style.color] = "appService.selectedMenu == 'credits' ? 'red' : 'black'" routerLink="/credits">Credits</button>
 </ul>
 </mat-toolbar>
 
