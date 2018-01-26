@@ -17,6 +17,13 @@ import { AppService } from './app.service';
 import { AddComponent } from './add/add.component';
 import { ListComponent } from './list/list.component';
 import {MatCardModule} from '@angular/material/card';
+import { HomeComponent } from './home/home.component';
+import { SkillsComponent } from './skills/skills.component';
+import { ExperiencesComponent } from './experiences/experiences.component';
+import { ContactComponent } from './contact/contact.component';
+import { LegalComponent } from './legal/legal.component';
+import { CreditsComponent } from './credits/credits.component';
+import { TodolistComponent } from './todolist/todolist.component';
 
 
 @NgModule({
@@ -26,7 +33,14 @@ import {MatCardModule} from '@angular/material/card';
     BodyComponent,
     FooterComponent,
     AddComponent,
-    ListComponent
+    ListComponent,
+    HomeComponent,
+    SkillsComponent,
+    ExperiencesComponent,
+    ContactComponent,
+    LegalComponent,
+    CreditsComponent,
+    TodolistComponent
   ],
   imports: [
     BrowserModule,
